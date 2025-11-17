@@ -30,7 +30,7 @@ txaposta.addEventListener("change", ()=>{
 
 btCara.addEventListener("click", ()=>{
     if(txaposta.value > 0){
-        valorAposta = Number(txaposta) 
+        valorAposta = Number(txaposta.value) 
 
         resultado = tirarCaraOuCoroa()
         divMoeda.innerText = resultado
@@ -45,7 +45,7 @@ btCara.addEventListener("click", ()=>{
     
 btCoroa.addEventListener("click", ()=>{
     if(txaposta.value > 0){
-        valorAposta = Number(txaposta) 
+        valorAposta = Number(txaposta.value) 
 
         resultado = tirarCaraOuCoroa()
         divMoeda.innerText = resultado
